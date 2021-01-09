@@ -6,9 +6,9 @@ This repository was created to serve as an entry point to a fully operational Gi
   
 GitHub applications have two parts:  
   
-- A GitHub application created on github.com on a GitHub organization that subscribes to certain events and has certain 
+1. A GitHub application created on github.com on a GitHub organization that subscribes to certain events and has certain 
   permissions for repositories that the application is installed on.  
-- An API that receives events for the configured GitHub application in part 1 and responds to those events in some way, 
+2. An API that receives events for the configured GitHub application in part 1 and responds to those events in some way, 
   however you like. The API authenticates each incoming request with the webhook secret token generated in part 1. 
   The API can be created in any language; programmer’s choice.
 
@@ -16,6 +16,9 @@ It is implemented in Go, using some of the following modules:
 
 * [Logrus](https://github.com/sirupsen/logrus) (logging)
 * [Viper](https://github.com/spf13/viper) (configuration)
+* [go-github](https://github.com/google/go-github) (v3 REST API client)
+* [githubv4]() (v4 GraphQL API client)
+
 
 ## Official materials
 
@@ -38,6 +41,9 @@ It is implemented in Go, using some of the following modules:
 
 - [GitHub Apps in Golang](https://medium.com/@sharkysharks/github-apps-in-golang-1809bb4efb40)
 - [Automating Github with Golang](https://www.x-cellent.com/blog/automating-github-with-golang-building-your-own-github-bot/)
+- [GitHub Demo Days youtube video](https://www.youtube.com/watch?v=iaBEWB1As0k) 
+
+
 
 ## Roadmap
 

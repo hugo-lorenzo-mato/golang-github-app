@@ -2,11 +2,20 @@
 GitHub Application Implemented in Golang
 _____  
 
-This repository was created to serve as an entry point to a fully operational GitHub App.
+This repository was created to serve as an entry point to a fully operational GitHub App.  
+  
+GitHub applications have two parts:  
+  
+- A GitHub application created on github.com on a GitHub organization that subscribes to certain events and has certain 
+  permissions for repositories that the application is installed on.  
+- An API that receives events for the configured GitHub application in part 1 and responds to those events in some way, 
+  however you like. The API authenticates each incoming request with the webhook secret token generated in part 1. 
+  The API can be created in any language; programmer’s choice.
 
 It is implemented in Go, using some of the following modules:
 
 * [Logrus](https://github.com/sirupsen/logrus) (logging)
+* [Viper](https://github.com/spf13/viper) (configuration)
 
 ## Official materials
 

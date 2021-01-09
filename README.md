@@ -42,6 +42,8 @@ It is implemented in Go, using some of the following modules:
 - [GitHub Apps in Golang](https://medium.com/@sharkysharks/github-apps-in-golang-1809bb4efb40)
 - [Automating Github with Golang](https://www.x-cellent.com/blog/automating-github-with-golang-building-your-own-github-bot/)
 - [GitHub Demo Days youtube video](https://www.youtube.com/watch?v=iaBEWB1As0k) 
+- [Previous Demo Days Youtube video Gist](https://gist.github.com/swinton/96d4d12c06c2c2b1256ffb0207acf9ba)  
+- [github-developer/github-apps-cheat-sheet](https://github.com/github-developer/github-apps-cheat-sheet/blob/master/README.md)
 
 
 

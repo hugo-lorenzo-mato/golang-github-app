@@ -16,8 +16,9 @@ It is implemented in Go, using some of the following modules:
 
 * [Logrus](https://github.com/sirupsen/logrus) (logging)
 * [Viper](https://github.com/spf13/viper) (configuration)
+* [gorilla/mux](https://github.com/gorilla/mux) (router)
 * [go-github](https://github.com/google/go-github) (v3 REST API client)
-* [githubv4]() (v4 GraphQL API client)
+* [githubv4](https://github.com/shurcooL/githubv4) (v4 GraphQL API client)
 
 
 ## Official materials
@@ -27,7 +28,7 @@ It is implemented in Go, using some of the following modules:
 - [Guides](https://docs.github.com/en/free-pro-team@latest/developers/apps/guides)
 
 
-## Cool Golang Libraries & boilerplates
+## Cool GitHub Apps Golang Libraries & boilerplates
 
 - [go-github](https://github.com/google/go-github) is a Go client library for accessing the GitHub API v3 from Google.
 - [ghinstallation](https://github.com/bradleyfalzon/ghinstallation) is designed to provide automatic authentication for
@@ -36,6 +37,7 @@ It is implemented in Go, using some of the following modules:
   handle GitHub webhooks.
 - [go-github-app-boilerplate](https://github.com/sharkySharks/go-github-app-boilerplate) is a boilerplate for creating a
   GitHub App in Golang.
+- [swinton/template-github-app-golang]()  
 
 ## Published articles
 
